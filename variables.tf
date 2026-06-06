@@ -3,7 +3,7 @@ variable "vpc_cidr" {
 }
 
 variable "env" {
-  default = "Dev"
+  default = "DeveloperA"
 }
 
 variable "public_subnet_cidrs" {
