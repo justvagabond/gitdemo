@@ -14,5 +14,7 @@ variable "public_subnet_cidrs" {
 }
 
 variable "tags" {
-    default = {}
+    default = {
+        Owner = "Vagabond Invinsible"
+    }
 }
