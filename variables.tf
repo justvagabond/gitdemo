@@ -15,7 +15,8 @@ variable "public_subnet_cidrs" {
 
 variable "tags" {
     default = {
-        Owner = "VagabondInvinsible"
         Project = "Unstoppable"
+        Owner = "Vagabond Invinsible"
+        DepartmentNumber = "1337"
     }
 }
