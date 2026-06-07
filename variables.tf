@@ -3,7 +3,7 @@ variable "vpc_cidr" {
 }
 
 variable "env" {
-  default = "Dev"
+  default = "Development"
 }
 
 variable "public_subnet_cidrs" {
@@ -11,4 +11,11 @@ variable "public_subnet_cidrs" {
     "10.0.1.0/24",
     "10.0.2.0/24"
   ]
+}
+
+variable "tags" {
+    default = {
+        Owner = "Vagabond Invinsible"
+        DepartmentNumber = "1337"
+    }
 }
